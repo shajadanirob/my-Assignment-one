@@ -12,7 +12,7 @@ body {
 .container {
     background: rgba(229, 84, 115, 0.10);
     width: 100%;
-    height: 91vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -70,6 +70,7 @@ main section {
     text-align: center;
     font-size: 40px;
     font-weight: 800;
+    margin-top: 40px;
 }
 
 .fetured-description {
@@ -170,39 +171,7 @@ main section {
 
 /* end fetured section */
 
-/* strat testimonal */
-.boxes{
-    display: flex;
-    align-items: center;
-    padding-left: 100px;
-    padding-top: 50px;
-    margin-left: 150px;
-    margin-right: 220px;
-    
-}
-.boxs{
-    padding: 10px 20px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.881);
-    cursor: pointer;
-}
-.taestimonal-des{
-    text-align: center;
-    padding-left: 60px;
-}
-.testimonal-img{
-    width: 50%;
-    border-radius: 50%;
-    padding: 40px;
-}
 
-.taestimonal-des{
-    font-size: 12px;
-    margin: 12px 0;
-    color: #777;
-    width: 50%;
-}
-
-/* end testimonal */
 /* strat hot deal */
 .hot-deal {
     background: rgba(229, 84, 115, 0.10);
@@ -285,6 +254,44 @@ main section {
 }
 
 /* end instragram */
+
+/* strat testimonal */
+.testimonal{
+    margin-top: ;
+}
+.boxes{
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 50px;
+    margin-left: 150px;
+    margin-right: 220px;
+    
+}
+.boxs{
+    padding: 10px 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.881);
+    cursor: pointer;
+}
+.taestimonal-des{
+    text-align: center;
+    padding-left: 60px;
+}
+.testimonal-img{
+    width: 50%;
+    border-radius: 50%;
+    padding: 40px;
+}
+
+.taestimonal-des{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+    width: 50%;
+}
+
+/* end testimonal */
+
 /* start details */
 
 .img-section {
